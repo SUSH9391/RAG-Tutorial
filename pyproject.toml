@@ -1,0 +1,14 @@
+[project]
+name = "rag-tutorials"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "huggingface-hub>=1.21.0",
+    "langchain-google-genai>=4.2.6",
+    "langchain-huggingface>=1.2.2",
+    "langsmith>=0.9.3",
+    "openai>=2.44.0",
+]
